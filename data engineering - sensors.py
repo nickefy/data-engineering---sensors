@@ -19,7 +19,7 @@ default_dag_args = {
     'start_date': '2019-08-30',
     'email_on_failure': True,
     'email_on_retry': True,
-    'project_id' : 'mudah-analytics-222509',
+    'project_id' : 'your project id',
     'retries': 1,
     'on_failure_callback': notify_email,
     'retry_delay': timedelta(minutes=5),
